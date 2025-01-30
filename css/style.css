@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: rgb(60, 215, 226);
+    font-family:'Times New Roman', Times, serif;
+
+}
+nav ul{
+    list-style:none;
+    padding:0;
+
+}
+  nav ul li{
+    text-align: center;
+    display:inline;
+    margin-right:15px
+
+}
+.active a{
+    font-weight: bold;
+    color:rgb(187, 7, 16);
+    
+}
+footer {
+    background-color: #f1f365;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.logo {
+    width: 150px; 
+    height: auto;
+}
+
+.about-photo {
+    width: 100%;
+    max-width: 250px; 
+    display: block;
+    margin: 20px auto;
+}
